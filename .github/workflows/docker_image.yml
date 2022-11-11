@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag liuyichen95/ircc_demo:$(date +%s)
+      run: docker build . --file Dockerfile --tag djangotest-app oovdjangopython.azurecr.io/djangotest-app:$(date +%s)
