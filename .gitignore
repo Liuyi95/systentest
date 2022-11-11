@@ -64,6 +64,9 @@ artifacts/
 # StyleCop
 StyleCopReport.xml
 
+#Ignore built by visual studio
+*vene/
+
 # Files built by Visual Studio
 *_i.c
 *_p.c

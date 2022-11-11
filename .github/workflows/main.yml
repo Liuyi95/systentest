@@ -9,8 +9,8 @@ env:
   AZURE_WEBAPP_NAME: djangotestprjt
   CONTAINER_REGISTRY: ${{ secrets.REGISTRY_URL }}
   AZURE_RESOURCE_GROUP: rg-djangoapp2
-  AZURE_APP_PLAN: oovdjangoblog2-asp
-  WEBHOOK_NAME: whookoovdjangoblog2
+  AZURE_APP_PLAN: djangotestprjt-asp
+  WEBHOOK_NAME: djangotestprjt
 
 
 jobs:
