@@ -8,6 +8,12 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
+- task: Docker@2
+  inputs:
+    containerRegistry: 'systemtest'
+    repository: 'IRCC_System'
+    command: 'buildAndPush'
+    Dockerfile: '**/Dockerfile'
 strategy:
   matrix:
     Python310:
